@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IRONFORGE FITNESS - Build Your Strongest Self</title>
+    <meta name="description" content="Premium fitness training facility with certified trainers, personalized programs, and state-of-the-art equipment.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-dumbbell"></i>
+                <span>IRONFORGE<br><small>FITNESS</small></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#programs" class="nav-link">Programs</a></li>
+                <li><a href="#trainers" class="nav-link">Trainers</a></li>
+                <li><a href="#membership" class="nav-link">Membership</a></li>
+                <li><a href="#schedule" class="nav-link">Schedule</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="cta-btn nav-cta">Join Now</button>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">BUILD YOUR<br>STRONGEST SELF.</h1>
+                <p class="hero-subtitle">Train smarter. Get stronger. Become unstoppable.</p>
+                <div class="hero-buttons">
+                    <button class="btn-primary">Start Training</button>
+                    <button class="btn-secondary">Explore Programs</button>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <span class="section-label">About Us</span>
+                    <h2 class="section-title">WHERE STRENGTH<br>MEETS DEDICATION</h2>
+                    <p class="section-description">IronForge Fitness is more than just a gym—it's a community of dedicated athletes, expert trainers, and state-of-the-art facilities designed to help you achieve your fitness goals.</p>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Professional Equipment</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Certified Trainers</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Personalized Training</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Strength & Conditioning</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Clean & Premium Facilities</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-card"></div>
+                </div>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fas fa-users"></i></div>
+                    <div class="stat-number" data-target="500">0</div>
+                    <div class="stat-label">Active Members</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fas fa-user-tie"></i></div>
+                    <div class="stat-number" data-target="15">0</div>
+                    <div class="stat-label">Expert Trainers</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fas fa-calendar-alt"></i></div>
+                    <div class="stat-number" data-target="50">0</div>
+                    <div class="stat-label">Weekly Classes</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fas fa-award"></i></div>
+                    <div class="stat-number" data-target="8">0</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section class="programs" id="programs">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Training Programs</span>
+                <h2 class="section-title">CHOOSE YOUR PATH</h2>
+                <p class="section-description">Expertly designed programs tailored to your fitness goals and experience level.</p>
+            </div>
+            <div class="programs-grid">
+                <div class="program-card">
+                    <div class="program-image strength"></div>
+                    <div class="program-content">
+                        <h3>Strength Training</h3>
+                        <p>Build raw power and increase your overall strength with compound movements and progressive overload.</p>
+                        <div class="program-meta">
+                            <span class="difficulty intermediate">Intermediate</span>
+                            <span class="duration"><i class="far fa-clock"></i> 12 weeks</span>
+                        </div>
+                        <button class="program-btn">View Program</button>
+                    </div>
+                </div>
+                <div class="program-card">
+                    <div class="program-image muscle"></div>
+                    <div class="program-content">
+                        <h3>Muscle Building</h3>
+                        <p>Hypertrophy-focused training to maximize muscle growth and achieve your ideal physique.</p>
+                        <div class="program-meta">
+                            <span class="difficulty beginner">Beginner</span>
+                            <span class="duration"><i class="far fa-clock"></i> 16 weeks</span>
+                        </div>
+                        <button class="program-btn">View Program</button>
+                    </div>
+                </div>
+                <div class="program-card">
+                    <div class="program-image weight"></div>
+                    <div class="program-content">
+                        <h3>Weight Training</h3>
+                        <p>Master proper form and technique while building functional strength for everyday life.</p>
+                        <div class="program-meta">
+                            <span class="difficulty beginner">Beginner</span>
+                            <span class="duration"><i class="far fa-clock"></i> 8 weeks</span>
+                        </div>
+                        <button class="program-btn">View Program</button>
+                    </div>
+                </div>
+                <div class="program-card">
+                    <div class="program-image functional"></div>
+                    <div class="program-content">
+                        <h3>Functional Fitness</h3>
+                        <p>Improve mobility, stability, and movement patterns for better athletic performance.</p>
+                        <div class="program-meta">
+                            <span class="difficulty intermediate">Intermediate</span>
+                            <span class="duration"><i class="far fa-clock"></i> 10 weeks</span>
+                        </div>
+                        <button class="program-btn">View Program</button>
+                    </div>
+                </div>
+                <div class="program-card">
+                    <div class="program-image hiit"></div>
+                    <div class="program-content">
+                        <h3>HIIT Training</h3>
+                        <p>High-intensity interval training for maximum fat burning and cardiovascular conditioning.</p>
+                        <div class="program-meta">
+                            <span class="difficulty advanced">Advanced</span>
+                            <span class="duration"><i class="far fa-clock"></i> 6 weeks</span>
+                        </div>
+                        <button class="program-btn">View Program</button>
+                    </div>
+                </div>
+                <div class="program-card">
+                    <div class="program-image personal"></div>
+                    <div class="program-content">
+                        <h3>Personal Training</h3>
+                        <p>One-on-one coaching customized to your specific goals, fitness level, and schedule.</p>
+                        <div class="program-meta">
+                            <span class="difficulty all">All Levels</span>
+                            <span class="duration"><i class="far fa-clock"></i> Custom</span>
+                        </div>
+                        <button class="program-btn">View Program</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trainers Section -->
+    <section class="trainers" id="trainers">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Expert Team</span>
+                <h2 class="section-title">MEET YOUR TRAINERS</h2>
+                <p class="section-description">Certified professionals dedicated to helping you reach your peak performance.</p>
+            </div>
+            <div class="trainers-grid">
+                <div class="trainer-card">
+                    <div class="trainer-image trainer1"></div>
+                    <div class="trainer-overlay">
+                        <div class="trainer-social">
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="trainer-info">
+                        <h3>Marcus Rodriguez</h3>
+                        <span class="trainer-specialty">Strength & Conditioning</span>
+                        <p class="trainer-experience">12+ years experience</p>
+                    </div>
+                </div>
+                <div class="trainer-card">
+                    <div class="trainer-image trainer2"></div>
+                    <div class="trainer-overlay">
+                        <div class="trainer-social">
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="trainer-info">
+                        <h3>Sarah Mitchell</h3>
+                        <span class="trainer-specialty">Functional Training</span>
+                        <p class="trainer-experience">8+ years experience</p>
+                    </div>
+                </div>
+                <div class="trainer-card">
+                    <div class="trainer-image trainer3"></div>
+                    <div class="trainer-overlay">
+                        <div class="trainer-social">
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="trainer-info">
+                        <h3>David Chen</h3>
+                        <span class="trainer-specialty">HIIT & Conditioning</span>
+                        <p class="trainer-experience">10+ years experience</p>
+                    </div>
+                </div>
+                <div class="trainer-card">
+                    <div class="trainer-image trainer4"></div>
+                    <div class="trainer-overlay">
+                        <div class="trainer-social">
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="trainer-info">
+                        <h3>Emily Thompson</h3>
+                        <span class="trainer-specialty">Nutrition & Wellness</span>
+                        <p class="trainer-experience">15+ years experience</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Membership Section -->
+    <section class="membership" id="membership">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Membership Plans</span>
+                <h2 class="section-title">INVEST IN YOURSELF</h2>
+                <p class="section-description">Flexible membership options designed to fit your lifestyle and goals.</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Basic</h3>
+                        <p>Perfect for getting started</p>
+                    </div>
+                    <div class="pricing-price">
+                        <span class="currency">$</span>
+                        <span class="amount">49</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Full gym access</li>
+                        <li><i class="fas fa-check"></i> Locker room & showers</li>
+                        <li><i class="fas fa-check"></i> Group fitness classes</li>
+                        <li><i class="fas fa-check"></i> Mobile app access</li>
+                        <li class="disabled"><i class="fas fa-times"></i> Personal training</li>
+                        <li class="disabled"><i class="fas fa-times"></i> Nutrition consultation</li>
+                    </ul>
+                    <button class="pricing-btn">Get Started</button>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3>Pro</h3>
+                        <p>Best value for serious athletes</p>
+                    </div>
+                    <div class="pricing-price">
+                        <span class="currency">$</span>
+                        <span class="amount">89</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Full gym access</li>
+                        <li><i class="fas fa-check"></i> Locker room & showers</li>
+                        <li><i class="fas fa-check"></i> All fitness classes</li>
+                        <li><i class="fas fa-check"></i> Mobile app access</li>
+                        <li><i class="fas fa-check"></i> 4 personal training sessions</li>
+                        <li><i class="fas fa-check"></i> Nutrition consultation</li>
+                    </ul>
+                    <button class="pricing-btn">Get Started</button>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Elite</h3>
+                        <p>Complete transformation package</p>
+                    </div>
+                    <div class="pricing-price">
+                        <span class="currency">$</span>
+                        <span class="amount">149</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Full gym access 24/7</li>
+                        <li><i class="fas fa-check"></i> Premium locker & amenities</li>
+                        <li><i class="fas fa-check"></i> All fitness classes</li>
+                        <li><i class="fas fa-check"></i> Mobile app access</li>
+                        <li><i class="fas fa-check"></i> Unlimited personal training</li>
+                        <li><i class="fas fa-check"></i> Custom nutrition plan</li>
+                    </ul>
+                    <button class="pricing-btn">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <section class="schedule" id="schedule">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Class Schedule</span>
+                <h2 class="section-title">WEEKLY CLASSES</h2>
+                <p class="section-description">Join our expert-led group classes designed for all fitness levels.</p>
+            </div>
+            <div class="schedule-container">
+                <div class="schedule-table">
+                    <div class="schedule-row schedule-header">
+                        <div class="schedule-day">Monday</div>
+                        <div class="schedule-class">Class</div>
+                        <div class="schedule-trainer">Trainer</div>
+                        <div class="schedule-time">Time</div>
+                        <div class="schedule-level">Level</div>
+                    </div>
+                    <div class="schedule-row">
+                        <div class="schedule-day">Monday</div>
+                        <div class="schedule-class">Morning Strength</div>
+                        <div class="schedule-trainer">Marcus Rodriguez</div>
+                        <div class="schedule-time">6:00 AM</div>
+                        <div class="schedule-level intermediate">Intermediate</div>
+                    </div>
+                    <div class="schedule-row">
+                        <div class="schedule-day">Monday</div>
+                        <div class="schedule-class">Functional HIIT</div>
+                        <div class="schedule-trainer">David Chen</div>
+                        <div class="schedule-time">12:00 PM</div>
+                        <div class="schedule-level advanced">Advanced</div>
+                    </div>
+                    <div class="schedule-row">
+                        <div class="schedule-day">Monday</div>
+                        <div class="schedule-class">Evening Core</div>
+                        <div class="schedule-trainer">Sarah Mitchell</div>
+                        <div class="schedule-time">6:00 PM</div>
+                        <div class="schedule-level beginner">Beginner</div>
+                    </div>
+                    
+                    <div class="schedule-row">
+                        <div class="schedule-day">Tuesday</div>
+                        <div class="schedule-class">Power Lifting</div>
+                        <div class="schedule-trainer">Marcus Rodriguez</div>
+                        <div class="schedule-time">7:00 AM</div>
+                        <div class="schedule-level advanced">Advanced</div>
+                    </div>
+                    <div class="schedule-row">
+                        <div class="schedule-day">Tuesday</div>
+                        <div class="schedule-class">Yoga Recovery</div>
+                        <div class="schedule-trainer">Emily Thompson</div>
+                        <div class="schedule-time">10:00 AM</div>
+                        <div class="schedule-level beginner">All Levels</div>
+                    </div>
+                    <div class="schedule-row">
+                        <div class="schedule-day">Tuesday</div>
+                        <div class="schedule-class">Circuit Training</div>
+                        <div class="schedule-trainer">David Chen</div>
+                        <div class="schedule-time">5:30 PM</div>
+                        <div class="schedule-level intermediate">Intermediate</div>
+                    </div>
+                    
+                    <div class="schedule-row">
+                        <div class="schedule-day">Wednesday</div>
+                        <div class="schedule-class">Spin Class</div>
+                        <div class="schedule-trainer">Sarah Mitchell</div>
+                        <div class="schedule-time">6:30 AM</div>
+                        <div class="schedule-level intermediate">Intermediate</div>
+                    </div>
+                    <div class="schedule-row">
+                        <div class="schedule-day">Wednesday</div>
+                        <div class="schedule-class">Strength & Conditioning</div>
+                        <div class="schedule-trainer">Marcus Rodriguez</div>
+                        <div class="schedule-time">12:00 PM</div>
+                        <div class="schedule-level intermediate">Intermediate</div>
+                    </div>
+                    <div class="schedule-row">
+                        <div class="schedule-day">Wednesday</div>
+                        <div class="schedule-class">Bootcamp</div>
+                        <div class="schedule-trainer">David Chen</div>
+                        <div class="schedule-time">7:00 PM</div>
+                        <div class="schedule-level advanced">Advanced</div>
+                    </div>
+                    
+                    <div class="schedule-row">
+                        <div class="schedule-day">Thursday</div>
+                        <div class="schedule-class">Functional Fitness</div>
+                        <div class="schedule-trainer">Sarah Mitchell</div>
+                        <div class="schedule-time">6:00 AM</div>
+                        <div class="schedule-level beginner">All Levels</div>
+                    </div>
+                    <div class="schedule-row">
+                        <div class="schedule-day">Thursday</div>
+                        <div class="schedule-class">Nutrition Workshop</div>
+                        <div class="schedule-trainer">Emily Thompson</div>
+                        <div class="schedule-time">11:00 AM</div>
+                        <div class="schedule-level beginner">All Levels</div>
+                    </div>
+                    <div class="schedule-row">
+                        <div class="schedule-day">Thursday</div>
+                        <div class="schedule-class">Boxing Fitness</div>
+                        <div class="schedule-trainer">Marcus Rodriguez</div>
+                        <div class="schedule-time">6:00 PM</div>
+                        <div class="schedule-level intermediate">Intermediate</div>
+                    </div>
+                    
+                    <div class="schedule-row">
+                        <div class="schedule-day">Friday</div>
+                        <div class="schedule-class">HIIT Express</div>
+                        <div class="schedule-trainer">David Chen</div>
+                        <div class="schedule-time">6:00 AM</div>
+                        <div class="schedule-level advanced">Advanced</div>
+                    </div>
+                    <div class="schedule-row">
+                        <div class="schedule-day">Friday</div>
+                        <div class="schedule-class">Lunch Lift</div>
+                        <div class="schedule-trainer">Marcus Rodriguez</div>
+                        <div class="schedule-time">12:30 PM</div>
+                        <div class="schedule-level intermediate">Intermediate</div>
+                    </div>
+                    <div class="schedule-row">
+                        <div class="schedule-day">Friday</div>
+                        <div class="schedule-class">Stretch & Mobility</div>
+                        <div class="schedule-trainer">Emily Thompson</div>
+                        <div class="schedule-time">5:00 PM</div>
+                        <div class="schedule-level beginner">All Levels</div>
+                    </div>
+                    
+                    <div class="schedule-row">
+                        <div class="schedule-day">Saturday</div>
+                        <div class="schedule-class">Weekend Warriors</div>
+                        <div class="schedule-trainer">Sarah Mitchell</div>
+                        <div class="schedule-time">9:00 AM</div>
+                        <div class="schedule-level intermediate">Intermediate</div>
+                    </div>
+                    <div class="schedule-row">
+                        <div class="schedule-day">Saturday</div>
+                        <div class="schedule-class">Olympic Lifting</div>
+                        <div class="schedule-trainer">Marcus Rodriguez</div>
+                        <div class="schedule-time">11:00 AM</div>
+                        <div class="schedule-level advanced">Advanced</div>
+                    </div>
+                    
+                    <div class="schedule-row">
+                        <div class="schedule-day">Sunday</div>
+                        <div class="schedule-class">Active Recovery</div>
+                        <div class="schedule-trainer">Emily Thompson</div>
+                        <div class="schedule-time">10:00 AM</div>
+                        <div class="schedule-level beginner">All Levels</div>
+                    </div>
+                    <div class="schedule-row">
+                        <div class="schedule-day">Sunday</div>
+                        <div class="schedule-class">Sunday Strength</div>
+                        <div class="schedule-trainer">Marcus Rodriguez</div>
+                        <div class="schedule-time">4:00 PM</div>
+                        <div class="schedule-level intermediate">Intermediate</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facility Section -->
+    <section class="facility" id="facility">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Our Facilities</span>
+                <h2 class="section-title">STATE-OF-THE-ART GYM</h2>
+                <p class="section-description">Premium equipment and spaces designed for your success.</p>
+            </div>
+            <div class="facility-grid">
+                <div class="facility-card" data-facility="weight">
+                    <div class="facility-image weight-area"></div>
+                    <div class="facility-info">
+                        <h3>Weight Training Area</h3>
+                        <p>Premium free weights and power racks</p>
+                    </div>
+                </div>
+                <div class="facility-card" data-facility="cardio">
+                    <div class="facility-image cardio-area"></div>
+                    <div class="facility-info">
+                        <h3>Cardio Zone</h3>
+                        <p>Modern treadmills, bikes, and rowers</p>
+                    </div>
+                </div>
+                <div class="facility-card" data-facility="functional">
+                    <div class="facility-image functional-area"></div>
+                    <div class="facility-info">
+                        <h3>Functional Training</h3>
+                        <p>Turf area for dynamic movements</p>
+                    </div>
+                </div>
+                <div class="facility-card" data-facility="locker">
+                    <div class="facility-image locker-room"></div>
+                    <div class="facility-info">
+                        <h3>Locker Rooms</h3>
+                        <p>Clean facilities with showers</p>
+                    </div>
+                </div>
+                <div class="facility-card" data-facility="reception">
+                    <div class="facility-image reception-area"></div>
+                    <div class="facility-info">
+                        <h3>Reception</h3>
+                        <p>Welcoming entrance and staff</p>
+                    </div>
+                </div>
+                <div class="facility-card" data-facility="studio">
+                    <div class="facility-image studio-area"></div>
+                    <div class="facility-info">
+                        <h3>Training Studios</h3>
+                        <p>Private spaces for group classes</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Member Stories</span>
+                <h2 class="section-title">REAL RESULTS</h2>
+                <p class="section-description">Hear from members who transformed their lives at IronForge Fitness.</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"IronForge completely changed my approach to fitness. The trainers are knowledgeable, the equipment is top-notch, and the community is incredibly supportive. I've gained 15 pounds of muscle in 6 months."</p>
+                    <div class="testimonial-author">
+                        <div class="author-image member1"></div>
+                        <div class="author-info">
+                            <h4>James Wilson</h4>
+                            <span>Member since 2024</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"After trying multiple gyms, IronForge is where I finally found my home. The personal training sessions with Marcus helped me break through plateaus I thought were impossible. Best investment I've made."</p>
+                    <div class="testimonial-author">
+                        <div class="author-image member2"></div>
+                        <div class="author-info">
+                            <h4>Rebecca Martinez</h4>
+                            <span>Member since 2023</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"The facility is always clean, equipment is well-maintained, and the atmosphere is motivating without being intimidating. Sarah's functional training classes have improved my mobility significantly."</p>
+                    <div class="testimonial-author">
+                        <div class="author-image member3"></div>
+                        <div class="author-info">
+                            <h4>Michael Chang</h4>
+                            <span>Member since 2025</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="cta-overlay"></div>
+        <div class="container">
+            <div class="cta-content">
+                <h2>READY TO LEVEL UP?</h2>
+                <p>Your next level starts today.</p>
+                <button class="btn-primary btn-large">Join IronForge Fitness</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Get In Touch</span>
+                <h2 class="section-title">VISIT US TODAY</h2>
+                <p class="section-description">Stop by for a tour or reach out with any questions.</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>2450 Industrial Blvd<br>Los Angeles, CA 90021</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>(323) 555-0198</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>info@ironforgefitness.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-clock"></i></div>
+                        <div class="contact-details">
+                            <h4>Opening Hours</h4>
+                            <p>Monday - Friday: 5:00 AM - 11:00 PM<br>
+                            Saturday - Sunday: 6:00 AM - 10:00 PM</p>
+                        </div>
+                    </div>
+                    <div class="contact-map">
+                        <div class="map-placeholder">
+                            <i class="fas fa-map-marked-alt"></i>
+                            <p>View on Google Maps</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Phone Number">
+                        </div>
+                        <div class="form-group">
+                            <select id="subject" name="subject">
+                                <option value="">Select a topic</option>
+                                <option value="membership">Membership Inquiry</option>
+                                <option value="training">Personal Training</option>
+                                <option value="classes">Group Classes</option>
+                                <option value="tour">Facility Tour</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="form-submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <i class="fas fa-dumbbell"></i>
+                        <span>IRONFORGE<br><small>FITNESS</small></span>
+                    </div>
+                    <p class="footer-description">Building stronger bodies and minds through expert training, premium facilities, and a dedicated community.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#programs">Programs</a></li>
+                        <li><a href="#trainers">Our Trainers</a></li>
+                        <li><a href="#schedule">Class Schedule</a></li>
+                        <li><a href="#facility">Facilities</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Programs</h4>
+                    <ul>
+                        <li><a href="#programs">Strength Training</a></li>
+                        <li><a href="#programs">Muscle Building</a></li>
+                        <li><a href="#programs">HIIT Training</a></li>
+                        <li><a href="#programs">Functional Fitness</a></li>
+                        <li><a href="#programs">Personal Training</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <ul class="footer-contact">
+                        <li><i class="fas fa-map-marker-alt"></i> 2450 Industrial Blvd, Los Angeles</li>
+                        <li><i class="fas fa-phone"></i> (323) 555-0198</li>
+                        <li><i class="fas fa-envelope"></i> info@ironforgefitness.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 IronForge Fitness. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Image Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <div class="lightbox-content">
+            <img src="" alt="Facility Image">
+            <div class="lightbox-caption"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
